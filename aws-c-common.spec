@@ -15,6 +15,7 @@ Source0:	https://github.com/awslabs/aws-c-common/archive/v%{version}/%{name}-%{v
 URL:		https://github.com/awslabs/aws-c-common
 BuildRequires:	cmake >= 3.9
 BuildRequires:	gcc >= 5:3.2
+BuildRequires:	rpmbuild(macros) >= 1.605
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
