@@ -9,7 +9,7 @@ Version:	0.12.3
 Release:	1
 License:	Apache v2.0
 Group:		Libraries
-#Source0Download: https://github.com/awslabs/aws-c-common
+#Source0Download: https://github.com/awslabs/aws-c-common/releases
 Source0:	https://github.com/awslabs/aws-c-common/archive/v%{version}/%{name}-%{version}.tar.gz
 # Source0-md5:	48aa6f6b66b8fcaaaa54258e284cd2dc
 URL:		https://github.com/awslabs/aws-c-common
