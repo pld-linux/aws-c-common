@@ -5,13 +5,13 @@
 Summary:	AWS C Common library
 Summary(pl.UTF-8):	Biblioteka AWS C Common
 Name:		aws-c-common
-Version:	0.13.0
+Version:	1.0.2
 Release:	1
 License:	Apache v2.0
 Group:		Libraries
 #Source0Download: https://github.com/awslabs/aws-c-common/releases
 Source0:	https://github.com/awslabs/aws-c-common/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	a778ae944f4e0c0fd6a4594d78e16578
+# Source0-md5:	b001a18cf47e292f156aa68984e1fc6b
 URL:		https://github.com/awslabs/aws-c-common
 BuildRequires:	cmake >= 3.9
 BuildRequires:	gcc >= 5:3.2
@@ -66,9 +66,9 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc NOTICE README.md THIRD-PARTY-LICENSES.txt
+%doc CHANGELOG.md NOTICE README.md THIRD-PARTY-LICENSES.txt
 %{_libdir}/libaws-c-common.so.*.*.*
-%ghost %{_libdir}/libaws-c-common.so.1
+%ghost %{_libdir}/libaws-c-common.so.1.0
 
 %files devel
 %defattr(644,root,root,755)
