@@ -6,7 +6,7 @@ Summary:	AWS C Common library
 Summary(pl.UTF-8):	Biblioteka AWS C Common
 Name:		aws-c-common
 Version:	1.0.2
-Release:	1
+Release:	2
 License:	Apache v2.0
 Group:		Libraries
 #Source0Download: https://github.com/awslabs/aws-c-common/releases
@@ -30,7 +30,7 @@ podstawy, konfigurację, struktury danych i obsługę błędów.
 Summary:	Header files for AWS C Common library
 Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki AWS C Common
 Group:		Development/Libraries
-Requires:	%{name} = %{version}-%{release}
+Requires:	%{name}%{?_isa} = %{version}-%{release}
 
 %description devel
 Header files for AWS C Common library.
